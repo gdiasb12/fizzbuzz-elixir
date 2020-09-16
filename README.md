@@ -1,21 +1,46 @@
 # FizzBuzz
 
-**TODO: Add description**
+It's a simple Elixir project.
 
-## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `fizz_buzz` to your list of dependencies in `mix.exs`:
+## Prerequisites
+https://elixir-lang.org/install.html
 
-```elixir
-def deps do
-  [
-    {:fizz_buzz, "~> 0.1.0"}
-  ]
-end
+```
+- Erlang/OTP 
+- Elixir
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/fizz_buzz](https://hexdocs.pm/fizz_buzz).
+### Getting Started
 
+First, clone this repository from: (https://github.com/gdiasb12/fizzbuzz-elixir.git)
+
+```
+For https use: git clone https://github.com/gdiasb12/fizzbuzz-elixir.git
+
+For ssh use: git clone git@github.com:gdiasb12/fizzbuzz-elixir.git
+
+```
+
+### Compiling and Running it
+
+After cloning the repository, use the command below to compile the code
+```
+mix compile
+```
+Then, you gonna need a terminal instance to continue
+```
+iex -S mix
+```
+
+Now, run the following command to see the result
+```
+FizzBuzz.build("numbers.txt")
+```
+
+### Testing it
+
+Run the tests to make sure that everything is ok 
+```
+mix test
+```
